@@ -2,29 +2,47 @@
 
 body {
     font-family: Roboto, sans-serif;
-    width: 100%;
-    height: auto;
-    margin: 0px;
-    padding: 0px;  
+    overflow: scroll;
+    margin: 0;
     display: flex ;
     flex-direction: column;
- }
+}
 
 
 
 
+
+
+h2 {
+    text-align: center;
+    color: #1f2937
+}
+
+.container-2 {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    text-align: center;
+    white-space: pre;
+}
+
+.card {
+    border: 5px, rgb(9, 9, 241);
+    padding: 40px;
+}
 
 
  .container {
     display: flex;
     padding: 60px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 
 img {
-    width: 500px;
-    height: 350px;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
 }
 
 
@@ -88,4 +106,3 @@ ul, a {
     margin: 0;
     
 }
-
