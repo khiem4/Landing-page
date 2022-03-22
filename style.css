@@ -18,14 +18,16 @@ body {
       
 }
 
-
 .bold {
     display: flex;
     justify-content: end;
     font-size: 20px;
     font-weight: bolder;
 }
-span {
+
+
+
+.quote span {
     font-size: 25px;
     font-style: italic;
 }
@@ -48,7 +50,6 @@ h2 {
     padding: 40px;
 }
 
-
  .container {
     display: flex;
     padding: 60px;
@@ -62,24 +63,24 @@ img {
     height: 250px;
 }
 
-
-
 .hero , p {
     width: 500px;
     color: #E5E7EB;
-    font-size : 18px;
-    
+    font-size : 18px;  
+}
+
+.hero button {
+    display: flex;
+    border-color:#3882F6;
+    width: 120px;
+    justify-content: center;
+    padding: 8px;
     
 }
 
 .hero ,h1 {
     color: #F9FAF8;
 }
-
-
-
-
-
 
 button {
     font-family: roboto, sans-serif;
@@ -89,25 +90,18 @@ button {
     font-size: 15px;
     display: flex;
     padding:  10px;
-    
 }
-
-
 
 .header , .footer , .container {
     background-color: #1f2937;
-    
 }
-
-
 
 .header {
     display:flex;
     justify-content: space-around;
     padding-top: 10px;
-    
-    
 }
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -123,7 +117,41 @@ ul, a {
     margin: 0;
 }
 
-.btm-card-margin {
+.container3 {
     display: flex;
     padding: 70px;
+    justify-content: center;
+}
+
+.btm-card {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    width: 850px;
+    gap: 70px;
+    justify-content: center;
+}
+
+
+
+.btm-card h3 {
+    color: #E5E7EB;
+    font-size: 22px;
+}
+
+.btm-card button {
+    display: flex;
+    width: 90px;
+    border-color: white;
+    align-self: center;
+
+}
+
+.footer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
 }
