@@ -8,10 +8,27 @@ body {
     flex-direction: column;
 }
 
+.some-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 55px; 
+    background-color: #696b6d;
+      
+}
 
 
-
-
+.bold {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: bolder;
+}
+span {
+    font-size: 25px;
+    font-style: italic;
+}
 
 h2 {
     text-align: center;
@@ -104,5 +121,9 @@ ul, a {
     gap: 15px;
     text-decoration: none;
     margin: 0;
-    
+}
+
+.btm-card-margin {
+    display: flex;
+    padding: 70px;
 }
