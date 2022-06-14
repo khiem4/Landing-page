@@ -1,3 +1,2 @@
-# Landing-page
-odin project
-hello
+# Landing-page project for odin project
+
